@@ -9,9 +9,9 @@
 - [x] 3. Составить отчет и отправить ссылку личным сообщением в **Slack**
  
 
-itpc-19@debian-xrdp:~$ export GITHUB_USERNAME=desta-study 
+$ export GITHUB_USERNAME=desta-study 
 
-itpc-19@deb
+$ export GIST_TOKEN=bbe827a785aeb$ export GIST_TOKEN=bbe827a785aeb47ce4a6fbac13dd1ab66670d5d0
 
 $ alias edit=subl
 
