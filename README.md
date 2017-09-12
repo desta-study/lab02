@@ -7,8 +7,10 @@
 - [x] 1. Ознакомиться со ссылками учебного материала
 - [x] 2. Выполнить инструкцию учебного материала
 - [x] 3. Составить отчет и отправить ссылку личным сообщением в **Slack**
- 
 
+      ВЫПОЛНЕНИЕ ЛАБОРАТОРНОЙ 02:
+ 
+```
 $ export GITHUB_USERNAME=desta-study 
 
 $ export GIST_TOKEN=bbe827a785aeb$ export GIST_TOKEN=bbe827a785aeb47ce4a6fbac13dd1ab66670d5d0
@@ -38,3 +40,4 @@ $ cp tasks/lab${LAB_NUMBER}/README.md reports/lab${LAB_NUMBER}/REPORT.md
 $ cd reports/lab${LAB_NUMBER}
 
 $ edit REPORT.md
+```
