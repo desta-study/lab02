@@ -13,7 +13,7 @@
 ```
 $ export GITHUB_USERNAME=desta-study // добавляем переменную в среду окружения 
 
-$ export GIST_TOKEN=bbe827a785aeb$ export GIST_TOKEN=bbe827a785aeb47ce4a6fbac13dd1ab66670d5d0     // добавляем переменную в среду окружения
+$ export GIST_TOKEN=bbe827a785aeb47ce4a6fbac13dd1ab66670d5d0     // добавляем переменную в среду окружения
 
 $ alias edit=subl   // сокращаем команду edit
 
