@@ -30,7 +30,7 @@ $ cd ~/workspace/labs/     // переход по заданному пути
 
 $ export LAB_NUMBER=02  // добавляем переменную в среду окружения 
 
-$ git clone https://github.com/tp-labs/lab${LAB_NUMBER} tasks/lab${LAB_NUMBER}
+$ git clone https://github.com/tp-labs/lab${LAB_NUMBER} tasks/lab${LAB_NUMBER}    // создаем новую директорию, переходим внутрь и создаем пустой репозиторий, затем добавляем новый удалённый репозиторий для указанного URL, обновляем рабочую директорию до последнего коммита
 
 Клонирование в «tasks/lab02»… remote: Counting objects: 28, done. remote: Total 28 (delta 0), reused 0 (delta 0), pack-reused 28 Распаковка объектов: 100% (28/28), готово.
 
