@@ -11,33 +11,34 @@
  ВЫПОЛНЕНИЕ ЛАБОРАТОРНОЙ 02:
  
 ```
-$ export GITHUB_USERNAME=desta-study 
+$ export GITHUB_USERNAME=desta-study // добавляем переменную в среду окружения 
 
-$ export GIST_TOKEN=bbe827a785aeb$ export GIST_TOKEN=bbe827a785aeb47ce4a6fbac13dd1ab66670d5d0
+$ export GIST_TOKEN=bbe827a785aeb$ export GIST_TOKEN=bbe827a785aeb47ce4a6fbac13dd1ab66670d5d0     // добавляем переменную в среду окружения
 
-$ alias edit=subl
+$ alias edit=subl   // сокращаем команду edit
 
-$ cd ~
+$ cd ~  // выход в домашний каталог 
 
-$ mkdir -p workspace/labs/projects/
+$ mkdir -p workspace/labs/projects/     // создаем новый каталог( -р не выдает ошибок, если существует, создает
+                    родительские каталоги, если необходимо)
 
-$ mkdir -p workspace/labs/tasks/
+$ mkdir -p workspace/labs/tasks/    // создаем новый каталог
 
-$ mkdir -p workspace/labs/reports/
+$ mkdir -p workspace/labs/reports/     // создаем новый каталог
 
-$ cd ~/workspace/labs/
+$ cd ~/workspace/labs/     // переход по заданному пути
 
-$ export LAB_NUMBER=02
+$ export LAB_NUMBER=02  // добавляем переменную в среду окружения 
 
 $ git clone https://github.com/tp-labs/lab${LAB_NUMBER} tasks/lab${LAB_NUMBER}
 
 Клонирование в «tasks/lab02»… remote: Counting objects: 28, done. remote: Total 28 (delta 0), reused 0 (delta 0), pack-reused 28 Распаковка объектов: 100% (28/28), готово.
 
-$ mkdir reports/lab${LAB_NUMBER}
+$ mkdir reports/lab${LAB_NUMBER}    // создаем новый каталог
 
-$ cp tasks/lab${LAB_NUMBER}/README.md reports/lab${LAB_NUMBER}/REPORT.md
+$ cp tasks/lab${LAB_NUMBER}/README.md reports/lab${LAB_NUMBER}/REPORT.md    // переход по заданному пути
+     
+$ cd reports/lab${LAB_NUMBER}     // переход по заданному пути
 
-$ cd reports/lab${LAB_NUMBER}
-
-$ edit REPORT.md
+$ edit REPORT.md   //открытие в SUBLIME TEXT REPORT.md
 ```
